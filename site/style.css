@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Roboto+Mono:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(49, 66, 78);
+  height: 94vh;
+  width: 97vw;
+
+}
+#row1, #row2{
+    display: flex;
+}
+#rain,
+#storm {
+  display: none;
+}
+#weather {
+  height: 40vh;
+  margin: 20px;
+  width: 30vw;
+  background: linear-gradient(
+    to bottom,
+    rgb(72, 76, 142) 0%,
+    rgb(46, 48, 99) 100%
+  );
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.weatherIcon {
+  height: 20vh;
+  margin: 25px;
+}
+
+#weatherValues {
+  color: white;
+}
+
+#weatherValues h1 {
+  font-size: 1.7em;
+}
+#outside ,#outsideSmoke{
+  margin-bottom: 40px;
+}
+.temp {
+  font-size: 2em;
+}
+
+#Agri {
+  height: 40vh;
+  margin: 20px;
+  width: 58vw;
+  background: linear-gradient(
+    to bottom,
+    rgb(72, 142, 83) 0%,
+    rgb(46, 99, 51) 100%
+  );
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+#Agri h1 {
+  margin-bottom: 10px;
+}
+
+#Moisture {
+  width: 70%;
+}
+#Water {
+  width: 20%;
+  transition: width 1s;
+}
+#Moisture,
+#Water {
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.553);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#Moisture {
+  margin-bottom: 25px;
+  transition: width 1s;
+}
+
+#con {
+  width: 100%;
+}
+.cont{
+    background-color: hsla(0, 0%, 100%, 0.119);
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+#Smoke {
+    height: 40vh;
+    margin: 20px;
+    width: 30vw;
+    background: linear-gradient(
+      to bottom,
+      rgb(219, 161, 85) 0%,
+      rgb(120, 94, 43) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+#Door {
+    height: 40vh;
+    margin: 20px;
+    width: 58vw;
+    background: linear-gradient(
+      to bottom,
+      rgb(142, 73, 72) 0%,
+      rgb(99, 57, 46) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+  }
+#Door h1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#Door h4{
+    font-size: 1.5em;
+
+}
+#occupants {
+    width: 50%;
+    height: 70%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.162), rgba(128, 128, 128, 0.048),rgba(255, 255, 255, 0.179)); 
+    margin-left: 150px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+#occupants table{
+    width: 100%;
+    text-align: left;
+}
+#occupants table td{
+    width: 40%;
+}
+#occupants table th{
+    width: 20%;
+}

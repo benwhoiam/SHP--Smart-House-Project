@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Smart House</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+</head>
+
+<body>
+    <div id="row1">
+        <section id="weather">
+            <div id="weatherIcon">
+                <img src="rain.png" alt="" id="rain" class="weatherIcon" />
+                <img src="sunny.png" alt="" id="sunny" class="weatherIcon" />
+                <img src="storm.png" alt="" id="storm" class="weatherIcon" />
+            </div>
+            <div id="weatherValues">
+                <div id="outside">
+                    <h1>Outside</h1>
+                    <h4>
+                        <span class="temp">22</span><sup>°C</sup> | Humidity:
+                        <span>60</span>%
+                    </h4>
+                </div>
+                <div id="inside">
+                    <h1>Inside</h1>
+                    <h4>
+                        <span class="temp">25</span><sup>°C</sup> | Humidity:
+                        <span>68</span>%
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="Agri">
+            <div id="con">
+                <h1>Soil Moisture :</h1>
+                <div class="cont">
+
+                    <div id="Moisture"><span>60%</span></div>
+                </div>
+                <h1>Water Level :</h1>
+                <div class="cont">
+                    <div id="Water"><span>10%</span></div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+
+    <div id="row2" >
+        <section id="Door">
+        <div>
+            <h4>Room State: </h4>
+            <h1>Occupied</h1>
+        </div>
+        <div id="occupants">
+            <table>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        </section>
+
+
+        <section id="Smoke">
+        <div id="weatherIcon">
+            <img src="smoke-icon.png" alt="" class="weatherIcon" />
+        </div>
+        <div id="weatherValues">
+            <div id="outsideSmoke">
+                <h1>Outside</h1>
+                <h4>
+                    <span class="temp">22</span>
+                </h4>
+            </div>
+            <div id="insideSmoke">
+                <h1>Inside</h1>
+                <h4>
+                    <span class="temp">25</span>
+                </h4>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+
+</html>
